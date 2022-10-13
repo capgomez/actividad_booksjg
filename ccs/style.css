@@ -1,0 +1,16 @@
+/* declarar unas variables de colores y fuentes */
+:root{
+    /* fuentes */
+    --titutlos:'Oswald', sans-serif;
+    --parrafos:'Roboto', sans-serif;
+    /* colores corporativos */
+    --encabezado:rgb(201, 175, 104);
+    --piedepagina:rgb(179, 128, 51);
+    --enlace:rgb(107, 98, 20);
+    --enlacesobre:rgb(224, 233, 142);
+}
+
+/* configuracion global */
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--titulos);
+}
