@@ -8,22 +8,41 @@
     --piepagina:#000;
     --enlace:#fff;
     --enlaceSobre:#f3922b;
+
 }
 
-/* configuracion global */
-h1,h2,h3,h4,h5,h6{
+/* configuración global */
+h1,h2,h3,h4,h5,h6 {
     font-family:var(--titulos);
 }
 
-/* Selector universal en css es (*) */
+/* selector universal en css es (*) */
 *{
-    /* Calcular mejor los paddings o espaciados */
+    /* calcular mejor los paddings o espaciados */
     box-sizing: border-box;
 }
 
-/* Representación de una clase en css es (.) */
+/* representación de una clase en css es (.) */
+/* Encabezado */
 .home-wrapper {
     background-image: url('../images/background.jpg');
     background-size: cover;
+   
+}
 
+header{
+    width: 100%;
+    background-color: var(--encabezado);
+    position: fixed;/*elemento fijo*/
+    padding-top: 8px;
+}
+
+header nav{
+    float: right;
+    margin-left: 5px;
+    padding: 10px 2px;
+}
+
+header img{
+   width: 200px;
 }
