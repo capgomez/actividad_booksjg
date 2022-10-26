@@ -1,16 +1,29 @@
 /* declarar unas variables de colores y fuentes */
 :root{
     /* fuentes */
-    --titutlos:'Oswald', sans-serif;
-    --parrafos:'Roboto', sans-serif;
+    --titulos:'Lato', sans-serif;
+    --parrafos:'Roboto',sans-serif;
     /* colores corporativos */
-    --encabezado:rgb(201, 175, 104);
-    --piedepagina:rgb(179, 128, 51);
-    --enlace:rgb(107, 98, 20);
-    --enlacesobre:rgb(224, 233, 142);
+    --encabezado:#3c0e03;
+    --piepagina:#000;
+    --enlace:#fff;
+    --enlaceSobre:#f3922b;
 }
 
 /* configuracion global */
 h1,h2,h3,h4,h5,h6{
     font-family:var(--titulos);
+}
+
+/* Selector universal en css es (*) */
+*{
+    /* Calcular mejor los paddings o espaciados */
+    box-sizing: border-box;
+}
+
+/* Representación de una clase en css es (.) */
+.home-wrapper {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+
 }
